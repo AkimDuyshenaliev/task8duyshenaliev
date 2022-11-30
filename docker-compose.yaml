@@ -22,3 +22,5 @@ services:
       - DB_NAME=${DB_NAME}
       - DB_HOST=db
       - DB_PORT=5432
+    volumes:
+      - .:/code
