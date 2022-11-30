@@ -7,7 +7,7 @@ from models import TableCounter
 import uvicorn
 
 
-name = "Akim Duyshenaliev"
+name = "Duyshenaliev Akim"
 app = FastAPI()
 
 

@@ -3,12 +3,12 @@ name: Counter CI-CD
 on:
     # Triggers the workflow on push or pull request events but only for the main branch
     
-    # push:
+    push:
     # branches: [main]
     # pull_request:
     # branches: [main]
     # Run this workflow manually from the Actions tab on Repo homepage
-    workflow_dispatch:
+    # workflow_dispatch:
 
 jobs:
     deploy:
